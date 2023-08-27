@@ -27,9 +27,10 @@
   </head>
   <body>
     <header>
-      <nav class="nav-menu container">
+      <nav class="nav-menu-desktop wrap">
         <a class="logo" href="#inicio">Dom_Carlos</a>
-        <ul class="menu">
+
+        <ul class="menu-desktop ">
           <li class="inicio"><a href="#inicio">Início</a></li>
           <li class="quem_sou"><a href="#quem_sou">Quem sou</a></li>
           <li class="projetos"><a href="#projetos">Projetos</a></li>
@@ -39,9 +40,27 @@
         <a class="button-contato" href="#contato">
           <i class="fa-solid fa-envelope"></i> Contato
         </a>
+
       </nav>
 
-      <div class="apresentacao">
+      <nav class="nav-menu-mobile wrap">
+       <a class="logo" href="#inicio">Dom_Carlos</a>
+
+        <ul class="menu-mobile ">
+          <li class="inicio"><a href="#inicio">Início</a></li>
+          <li class="quem_sou"><a href="#quem_sou">Quem sou</a></li>
+          <li class="projetos"><a href="#projetos">Projetos</a></li>
+          <li class="habilidades"><a href="#habilidades">Habilidades</a></li>
+          <li><a class="button-contato" href="#contato">
+              <i class="fa-solid fa-envelope"></i> Contato
+             </a>
+          </li>
+        </ul>
+
+        <button class="butao-menu-mobile"><i class="fa-solid fa-bars"></i></button>
+      </nav>
+
+      <div class="container-apresentacao on">
         <div class="border-pulse">
           <div class="pulse-shadow"></div>
           <img
@@ -53,9 +72,11 @@
         <h2>Desenvolvedor Front-end</h2>
       </div>
 
-      <div class="seta-para-baixo">
+      <div class="seta-para-baixo on">
         <i class="fa-solid fa-arrow-down"></i>
       </div>
     </header>
+
+    <script src="./main.js"></script>
   </body>
 </html>
