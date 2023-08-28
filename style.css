@@ -188,7 +188,7 @@
  /* ======= HEADER ========= */
  
  header {
-   background-image: url("https://github.com/DomCarlosAdriano/DomCarlosAdrianoPortifolio/blob/master/.github/background.png?raw=true"); 
+   background-image: url("https://images.pexels.com/photos/2653362/pexels-photo-2653362.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"); 
    background-repeat: no-repeat;
    background-size: cover;
    background-position: center;
@@ -395,7 +395,6 @@
   justify-content: center;
   align-items: center;
   gap: 3rem;
-  
  }
  
  .texto-sobre_Mim{
@@ -487,6 +486,87 @@
   
  }
 
+ /* ======= MAIN > SECTION 2  ========= */
+
+ #projetos{
+  background: #111111;
+  height: 90rem;
+  margin-top: 4rem; 
+  padding-top: 1rem;
+}
+
+
+ #projetos h1{
+  text-align: center;
+  font-weight: 700;
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  margin-top: 5rem;
+  letter-spacing: .2rem;
+  color:  #6699ff;
+ }
+
+ #projetos h2{
+  text-align: left;
+  font-weight: 700;
+  font-size: 1.4rem;
+  margin-bottom: 2rem;
+  margin-top: 5rem;
+  letter-spacing: .2rem;
+  color:  #6699ff;
+ }
+
+ .container-slide-casos-de-estudo{
+  background:#33333357;
+  height: 30rem;
+  border-radius: 10px;
+
+ }
+
+ .container-slide-casos-de-estudo ul{
+  width: fit-content;
+  height: 85%;
+  padding: 1rem 1rem;
+ }
+
+  .container-slide-casos-de-estudo ul li{
+  cursor: grabbing;
+ } 
+
+ .box-slide{
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center; 
+  align-items: center;
+ }
+
+ .box-slide a{
+  height: fit-content;
+  width: fit-content;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+
+ }
+
+ .box-slide a img{
+  width: 13.5rem;
+  height: 17rem;
+  border-radius: 10px;
+}
+
+.box-slide a p{
+  font-size: 1.2rem;
+  font-weight: 700;
+  letter-spacing: 0.1rem;
+  color: #6699ff;
+  text-align: center;
+}
+
+
   /* =================  Media Queries  ================= */
 /* mobile */
 @media (min-width: 320px) {
@@ -537,6 +617,7 @@
      padding: 4rem 0;
     }
  
+    /* MAIN > SECTION 1# */
     #quem_sou{
      flex-wrap: wrap;
     }
@@ -569,6 +650,23 @@
     .contratar li p{
       font-size: 1rem;
       font-weight: 200;
+    }
+
+    /* MAIN > SECTION 2# */
+
+  
+
+    .container-slide-casos-de-estudo{
+      height: 25rem;
+    }
+
+    .swiper-button-next:after, .swiper-button-prev:after{
+      display: none;
+    }
+
+    .box-slide a img,
+    .box-slide a p {
+      margin-right: 1.5rem;
     }
  }
  
@@ -606,7 +704,17 @@
      font-size: 1.7rem;
     }
  
+    .swiper-button-next:after, .swiper-button-prev:after{
+      display: inline-block;
+    }
+
+    #projetos h1{
+      font-size: 3rem;
+    }
   
+    #projetos h2{
+      font-size: 2rem;
+    }
  }
  
  /* desktop medium */
@@ -651,6 +759,7 @@
       padding: 12rem 0 12rem;
      }
   
+     /* MAIN > SECTIO 1# */
      #quem_sou{
       flex-wrap: nowrap;
      }
@@ -684,7 +793,9 @@
       font-size: 1.2rem;
       font-weight: 500;
      }
- 
+
+     /* MAIN > SECTION 2# */
+
  }
  
  /* desktop large */
