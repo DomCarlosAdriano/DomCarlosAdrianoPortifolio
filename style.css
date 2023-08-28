@@ -660,9 +660,9 @@
       height: 25rem;
     }
 
-    .swiper-button-next:after, .swiper-button-prev:after{
+    /* .swiper-button-next:after, .swiper-button-prev:after{
       display: none;
-    }
+    } */
 
     .box-slide a img,
     .box-slide a p {
@@ -704,9 +704,9 @@
      font-size: 1.7rem;
     }
  
-    .swiper-button-next:after, .swiper-button-prev:after{
+    /* .swiper-button-next:after, .swiper-button-prev:after{
       display: inline-block;
-    }
+    } */
 
     #projetos h1{
       font-size: 3rem;
