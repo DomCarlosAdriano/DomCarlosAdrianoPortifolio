@@ -382,8 +382,7 @@
   height: fit-content;
   width: 100vw;
   background:#151515;
-  padding: 12rem 0 12rem;
- 
+  padding: 1px 0 0 0;
  }
 
 
@@ -395,6 +394,7 @@
   justify-content: center;
   align-items: center;
   gap: 3rem;
+  padding-top: 12rem;
  }
  
  .texto-sobre_Mim{
@@ -613,9 +613,7 @@
 
     /* MAIN */
  
-    main{
-     padding: 4rem 0;
-    }
+    
  
     /* MAIN > SECTION 1# */
     #quem_sou{
@@ -660,9 +658,6 @@
       height: 25rem;
     }
 
-    /* .swiper-button-next:after, .swiper-button-prev:after{
-      display: none;
-    } */
 
     .box-slide a img,
     .box-slide a p {
@@ -704,9 +699,6 @@
      font-size: 1.7rem;
     }
  
-    /* .swiper-button-next:after, .swiper-button-prev:after{
-      display: inline-block;
-    } */
 
     #projetos h1{
       font-size: 3rem;
@@ -755,9 +747,6 @@
 
     /* MAIN */
 
-    main{
-      padding: 12rem 0 12rem;
-     }
   
      /* MAIN > SECTIO 1# */
      #quem_sou{
