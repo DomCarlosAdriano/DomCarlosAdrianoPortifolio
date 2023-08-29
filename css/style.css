@@ -528,7 +528,7 @@
   padding: 1rem 1rem;
  }
 
-  .container-slide-casos-de-estudo ul li{
+  .container-slide-casos-de-estudo ul ol{
   cursor: grabbing;
  } 
 
