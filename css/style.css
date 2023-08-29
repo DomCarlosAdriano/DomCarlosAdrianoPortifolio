@@ -423,7 +423,7 @@
  }
 
 
- .contratar li{
+ .contratar ol{
   width: fit-content;
   padding: 1.2rem;
   height: fit-content;
@@ -437,7 +437,7 @@
  } 
 
 
- .contratar li h1{
+ .contratar ol h1{
   margin-bottom: 0.6rem;
   letter-spacing: 0.2rem;
   font-weight: 700;
@@ -446,7 +446,7 @@
 
  }
 
- .contratar li p{
+ .contratar ol p{
   font-size: 1.2rem;
   font-weight: 500;
   margin-bottom: 0.6rem;
@@ -456,7 +456,7 @@
 
  }
  
- .contratar li a{
+ .contratar ol a{
   width: fit-content;
   height: 2.4rem;
   padding: 1.05rem;
@@ -552,8 +552,8 @@
  }
 
  .box-slide a img{
-  width: 13.5rem;
-  height: 17rem;
+  width:13.5rem; 
+  height:17rem;
   border-radius: 10px;
 }
 
